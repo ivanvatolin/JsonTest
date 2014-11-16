@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="4dp" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="2.55" >
+
+        <ImageView
+            android:id="@+id/ivUrlImage"
+            android:layout_width="50.0dip"
+            android:layout_height="40.0dip"
+            android:layout_gravity="center"
+            android:scaleType="centerCrop"
+            android:src="@drawable/ic_home"
+            android:visibility="visible" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/tvTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="16dp"
+                android:paddingLeft="7dp"
+                android:text="Cow Head Meat Popular in South Africa"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="#166CED" />
+
+            <TextView
+                android:id="@+id/tvDateIssue"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="7dp"
+                android:text="Date: 03/02/2014"
+                android:textColor="#D64530" />
+
+            <TextView
+                android:id="@+id/tvLength"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="7dp"
+                android:text="Length: 5 min 34 sec"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="#D64530" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>
